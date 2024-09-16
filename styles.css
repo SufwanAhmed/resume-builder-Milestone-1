@@ -2,83 +2,79 @@ css
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #8ebd0f;
-    text-underline-offset: #fdfcfc; ;
+    background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
+    padding: 150px;
 }
 
-.container {
-    width:50%;
-    margin: auto;
-    padding: 40px;
-    background-color: rgb(183, 148, 223);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.resume-container {
+    display: flex;
+    background-color: white;
+    width:80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+.left-section {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    width: 35%;
     text-align: center;
-    text-size-adjust: 30;
-    text-underline-offset: #fdfcfc;
-}
-
-header {
-    text-align: center;
+    border-right: 5px solid #e63946;
 }
 
 .profile-picture {
-    border-radius: 60%;
-    width: 200px;
-    height: 200px;
-}
-
-h1, h2 {
-    color: #080808;
-}
-
-p {
-    color: #0e0e0e;
-}
-
-li {
-    color: #080808;
-}
-
-li {
-    color: #080808;
-}
-.p text{
-    size: 30;
-}
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-section {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #e63939;
     margin-bottom: 20px;
 }
 
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e63946;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.right-selection {
+    padding: 20px;
+    width: 65%;   
+}
+
 button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #063009;
-    color: white;
-    border: black;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
     cursor: pointer;
-    font-size: 16px;
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 button:hover {
-    background-color: #33db1d;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container {
-        width: 95%;
-    }
-
-    .profile-picture {
-        width: 200px;
-        height: 200px;
-    }
+    background-color: #ff737c;
 }
